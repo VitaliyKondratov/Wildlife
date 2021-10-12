@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body{
+margin: 0;
+font-family: roboto, sans-serif;
+/* max-width: 900px;
+margin: auto; */
+}
+
+.header{
+/* display: flex; */
+position: relative;
+background-image: url(./images/fox.png); 
+background-repeat: no-repeat;
+background-size: cover; 
+background-position: center;
+height: 780px;
+} 
+
+.ant{
+height: 66px;
+width: 70px;
+}
+
+.headcont{
+/* position: relative; */
+display: flex;
+/* background-color:coral ; */
+padding-top: 20px;
+padding-left: 50px;
+padding-bottom: 50;
+/* padding-right: 0px; */
+}
+
+.headcont span{
+color: white;
+display: block;
+font-size: 30px;
+padding-bottom: 30px;
+margin-top: 10px;
+margin-left: 10px;
+}
+
+.list{
+display: flex;
+list-style: none;
+padding-left: 0;
+}
+
+.list li{
+color: rgb(255, 255, 255);
+margin-right: 30px;
+}
+
+ .ul{
+font-family: inherit;
+position: absolute;
+right: 20px;
+} 
+
+.search{
+width: 20px;
+margin-top: 5px;
+}
+
+.butt{
+color: rgb(255, 255, 255);
+border: 2px solid #CD6326;;
+border-radius: 5px;
+background-color: transparent;
+padding: 5px 10px;
+}
+
+/* .butt:hover{
+box-shadow: 5px 5px 5px rgb(82, 82, 82);;
+} */
+
+.otstup{
+display: flex;
+padding-top: 5px;
+}
+
+.abz{
+font-family: inherit;
+margin-left: 50px;
+}
+
+.abz h1{
+color: #CD6326;
+}
+
+.abz p{
+margin-top: 50px;
+color: rgb(255, 255, 255);
+width: 200px;
+}
+
+.butt1{
+margin-top: 20px;
+color: rgb(255, 255, 255);
+margin-left: 50px;
+background-color: #CD6326;
+border: none;
+border-radius: 5px;
+padding: 10px 15px;
+}
+
+.maincont{
+height: 1370px;
+background-color: #CCCCCC;
+}
+
+.maincont h2{
+text-align: center;
+margin: 0;
+padding-top: 120px;
+font-family: open sans, sans-serif;
+}
+
+.maincont p{
+text-align: center;
+color: rgba(102, 102, 102, 1);
+font-family: open sans
+}
